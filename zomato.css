@@ -1,0 +1,348 @@
+.big{
+width:100%;
+height:525px;
+position:relative;
+left:0;
+right:0;
+top:0;
+}
+
+.options{
+display:flex;
+gap:50px;
+color:white;
+font-family:"Arial Narrow";
+position:absolute;
+font-size:16px;
+position:absolute;
+top:24px;
+right:250px;
+letter-spacing:1px;
+flex-wrap:wrap;
+}
+
+.options:hover{
+cursor:pointer;
+display:flex;
+gap:50px;
+color:white;
+font-family:"Arial Narrow";
+position:absolute;
+font-size:16px;
+position:absolute;
+top:24px;
+right:250px;
+letter-spacing:1px;
+}
+
+.head{
+font-family:Metropolis;
+font-size:78px;
+color:white;
+position:absolute;
+top:110px;
+left:40%;
+font-weight:400;
+letter-spacing:-3px;
+flex-wrap:wrap;
+}
+
+.tag{
+width:530px;
+border:10px solid transparent;
+position:absolute;
+color:white;
+font-size:35px;
+font-family:"Arial Narrow";
+top:230px;
+position:absolute;
+left:30%;
+text-align:center;
+margin-top:17px;
+}
+
+
+.line{
+border:1px solid transparent;
+width:465px;
+height:35px;
+display:flex;
+gap:1px;
+letter-spacing:1.5px;
+align-items:center;
+margin-left:450px;
+bottom:20px;
+margin-top:40px;
+}
+
+.flag{
+width:50px;
+height:35px;
+border-radius:8px;
+margin-right:6px;
+margin-left:12px;
+}
+
+.below{
+font-size:32px;
+font-family:"Arial Narrow";
+color:black;
+}
+
+.India{
+font-size:32px;
+font-family:"Arial Narrow";
+color:black;
+}
+
+.text{
+color:gray;
+font-family:"Arial Narrow";
+border:1px solid transparent;
+padding:3px;
+margin-top:50px;
+font-size:18px;
+width:863px;
+letter-spacing:1.5px;
+margin-left:260px;
+text-align:center;
+line-height:27px;
+flex-wrap:wrap;
+}
+
+.boxes{
+gap:20px 50px;
+flex-wrap:wrap;
+}
+
+.agra{
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+}
+
+.agra:hover{
+cursor:pointer;
+box-shadow:1px 1px 4px 2px lightgray;
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+text-decoration:underline;
+}
+
+.delhi{
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+}
+
+.delhi:hover{
+cursor:pointer;
+box-shadow:1px 1px 4px 2px lightgray;
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+text-decoration:underline;
+}
+
+.chennai{
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+}
+
+
+.chennai:hover{
+cursor:pointer;
+box-shadow:1px 1px 4px 2px lightgray;
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+text-decoration:underline;
+}
+
+.bhopal{
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+}
+
+.bhopal:hover{
+cursor:pointer;
+box-shadow:1px 1px 4px 2px lightgray;
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+text-decoration:underline;
+}
+
+.banglore{
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+}
+
+.banglore:hover{
+cursor:pointer;
+box-shadow:1px 1px 4px 2px lightgray;
+width:260px;
+height:75px;
+border:1px solid lightgray;
+border-radius:15px;
+color:black;
+background-color:white;
+font-size:22px;
+font-family:"Arial Narrow";
+margin:20px;
+text-decoration:underline;
+}
+
+.lastblock{
+width:100%;
+height:500px;
+background-color:#F5F5F5;
+margin-top:35px;
+position:relative;
+}
+
+.logo{
+font-family:Metropolis;
+font-size:44px;
+color:black;
+letter-spacing:-3px;
+left:30px;
+top:-3px;
+position:absolute;
+}
+
+.buttonindia{
+display:flex;
+align-items:center;
+gap:12px;
+border:1px solid gray;
+border-radius:4px;
+position:absolute;
+right:30px;
+top:40px;
+height:36px;
+padding:5px;
+width:120px;
+}
+
+.smallindia{
+width:40px;
+height:23px;
+margin-left:3px;
+}
+
+.indtext{
+font-size:23px;
+}
+
+.buttonenglish{
+display:flex;
+align-items:center;
+gap:12px;
+border:1px solid gray;
+border-radius:4px;
+position:absolute;
+right:170px;
+top:40px;
+height:36px;
+padding:5px;
+width:120px;
+margin-right:20px;
+}
+
+.globe{
+width:23px;
+height:23px;
+margin-left:3px;
+}
+
+.english{
+font-size:23px;
+}
+
+.section{
+margin-left:28px;
+margin-right:35px;
+display:flex;
+position:absolute;
+top:140px;
+gap:130px;
+flex-wrap:wrap;
+}
+
+.a{
+color:#555555;
+}
+
+.pico{
+width:27px;
+height:27px;
+}
+
+.pict{
+width:27px;
+height:27px;
+}
+
+.store{
+width:160px;
+height:50px;
+}
